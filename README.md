@@ -1,1 +1,20 @@
-# account-manager
+Features:
+<1>ADMIN Log in
+<2>USER	Log in
+ADMIN:
+	<1>Add new employee
+	<2>See the whole list 
+	<3>Search for a specific user
+USER:
+	<1>UPDATE USER PROFILE
+	<2>See profile details
+	<3>Change password.
+
+In admin.txt set the initial id and the last id created, separated by a single space. For example,
+1000 1000
+For the initial part 1000 is both starting and ending serial. The ending ID will be automatically updated and written in the admin.txt file.
+For admin, 
+user: "Admin"
+pass: "ADMIN"
+
+Programm will automaticaly generate individual TXT file, each time you add an employee.
